@@ -10,7 +10,7 @@
         app.receivedEvent('deviceready');
 
         // Here, we redirect to the web site.
-        var targetUrl = "#?platform=" + cordova.platformId;
+        var targetUrl = "https://crossminton.sports-data-solutions.de/fos/GOapp401/?platform=" + cordova.platformId;
         var bkpLink = document.getElementById("bkpLink");
         bkpLink.setAttribute("href", targetUrl);
         bkpLink.text = targetUrl;
